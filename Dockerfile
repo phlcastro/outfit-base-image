@@ -9,7 +9,7 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main" >> /etc
 RUN apt-get update -y -qq && \
     apt-get install -y -qq software-properties-common build-essential \
       python-software-properties curl wget vim libpq-dev libxml2-dev \
-      libxslt1-dev zip postgresql-client-9.4 cron
+      libxslt1-dev zip postgresql-client-9.4 cron git-core
 
 # gpg keys listed at https://github.com/nodejs/node
 RUN set -ex \
