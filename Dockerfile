@@ -1,4 +1,4 @@
-FROM ruby:2.3-slim
+FROM ruby:2.3.0-slim
 MAINTAINER Outfit <contact@outfit.io>
 
 # Add the PostgreSQL PGP key to verify their Debian packages.
