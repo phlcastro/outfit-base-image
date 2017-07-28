@@ -40,3 +40,4 @@ CMD [ "node" ]
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN npm install -g yarn
+RUN yarn global add node-gyp
